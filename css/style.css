@@ -202,3 +202,27 @@ button:hover{
   transition: 0.25s;
   transform: scale(1.05);
 }
+
+
+@media screen and (max-width: 1300px){
+  .left_icon{
+    position: absolute;
+    top: 1000px;
+    width: 100px;
+    height: 100px;
+  }
+  .right_icon{
+    position: absolute;
+    top: 1000px;
+    width: 100px;
+    height: 100px;
+  }
+  .bottom_icon{
+    position: absolute;
+    top: 1175px;
+  }
+  .visit_card{
+    height: 75px;
+    text-align: center;
+  }
+}
