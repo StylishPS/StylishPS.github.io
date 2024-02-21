@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  background: #2a2b2b;
+}
+a{
+  text-decoration: none;
+}
+.header{
+  background: transparent;
+}
+.top_ul{
+  display: flex;
+  justify-content: right;
+  margin-top: -28px;
+}
+li{
+  list-style: none;
+  margin-right: 50px;
+  padding: 5px 20px 5px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 13px;
+  color: #909190;
+  font-weight: 600;
+  font-size: 12px;
+}
+li:hover{
+  transform: scale(1.14);
+  transition: 0.25s;
+  background: rgba(255, 255, 255, 0.3)
+}
+.li_a{
+  text-decoration: none;
+  background: transparent;
+  color: #909190;
+}
+.top:hover{
+  transition: 0.5s;
+}
+.li_icon{
+  background: transparent;
+  margin-right: 5px;
+  margin-bottom: -1px;
+  width: 14px;
+  height: 14px;
+}
+.title{
+  font-size: 85px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),
+url(https://images.wallpaperscraft.ru/image/single/ulitsa_nochnoj_gorod_neon_187651_1366x768.jpg);
+  height: 450px;
+  background-size: 100%;   
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  filter: brightness(0.8);
+  
+}
+.main_logo{
+  background: transparent;
+  color: white;
+  margin-bottom: 35px;
+  font-size: 100px;
+}
+.main_desc{
+  font-size: 20px;
+}
+.visit_card{
+  background: #5e32a8;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.logo_text{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+}
+.logo{
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_img{
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.title_text{
+    padding-top: 20px;
+}
+.discord{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  background: #3581e6;
+  border: 0;
+  color: #fff;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 40px;
+}
+.discord:hover{
+  cursor: pointer;
+}
+.discord_link{
+  color: white;
+  background: transparent;
+  text-align: center;
+}
+.fa-discord{
+  color: white;
+  margin-right: 10px;
+  text-align: center;
+  background: transparent;
+}
+.skibidi_text{
+  font-size: 22px;
+  text-align: center;
+  width: 850px;
+  color: rgba(255, 255, 255, 0.829);
+}
+.info{
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button_bottom_text{
+  font-size: 25px;
+  text-align: center;
+  width: 850px;
+  color: rgba(255, 255, 255, 0.829);
+  margin-top: 50px;
+}
+.yellow_text{
+  color: rgb(255, 255, 128);
+}
+header{
+  box-shadow: 2px;
+}
+.icons{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 60px;
+  color: white;
+  margin-top: 20px;
+}
+.dostupno{
+  margin-top: 20px;
+}
+.left_icon{
+  position: absolute;
+  left: 150px;
+  top: 575px;
+  transform: rotate(15deg)
+}
+.right_icon{
+  position: absolute;
+  right: 150px;
+  top: 575px;
+  transform: rotate(-25deg)
+}
+.bottom_icon{
+  top: 795px;
+  transform: rotate(0deg)
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown_content{
+  position: absolute;
+  display: none;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: 5;
+}
+.dropdown_li:hover {
+  display: block;
+}
+.main_logo_image{
+  position: absolute;
+  top: 160px;
+  background: transparent;
+  opacity: 0.35;
+}
+button:hover{
+  transition: 0.25s;
+  transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 1300px){
+  .left_icon{
+    position: absolute;
+    top: 1000px;
+    width: 100px;
+    height: 100px;
+  }
+  .right_icon{
+    position: absolute;
+    top: 1000px;
+    width: 100px;
+    height: 100px;
+  }
+  .bottom_icon{
+    position: absolute;
+    top: 1175px;
+  }
+  .visit_card{
+    height: 75px;
+    text-align: center;
+  }
+}
